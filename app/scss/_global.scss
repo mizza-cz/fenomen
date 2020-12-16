@@ -1,0 +1,38 @@
+html{
+   box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+   box-sizing: inherit;
+}
+html,
+body {
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    
+}
+a{
+   display: inline-block;
+   text-decoration: none;
+}
+ul,
+li{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+body{
+
+}
+
+.container{
+   padding: 0 15px;
+   margin: 0 auto;
+   
+}
+
+
+@import 'media';
