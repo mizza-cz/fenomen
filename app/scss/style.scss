@@ -105,9 +105,6 @@
    text-transform: uppercase;
    letter-spacing: .3px;
    position: relative;
-   &--close{
-
-   }
    &::before{
       content: '';
       position: absolute;
@@ -136,12 +133,6 @@
 .gallery a + a{
    margin-left: 4px;
 }
-
-
-
-
-
-
 
 /// blog
 .blog__years{
