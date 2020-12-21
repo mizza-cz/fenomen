@@ -1,0 +1,21 @@
+@font-face {
+   font-family: 'URWDIN-Black', sans-serif;
+   src: url('../fonts/URWDIN-Black.woff2') format('woff2'),
+        url('../fonts/URWDIN-Black.woff') format('woff');
+      font-weight: 900;
+      font-display: swap;
+ }
+ @font-face {
+   font-family: 'URWDIN-Bold', sans-serif;
+   src: url('../fonts/URWDIN-Bold.woff2') format('woff2'),
+        url('../fonts/URWDIN-Bold.woff') format('woff');
+      font-weight: 700;
+      font-display: swap;
+ }
+ @font-face {
+   font-family: 'URWDIN-Regular', sans-serif;
+   src: url('../fonts/URWDIN-Regular.woff2') format('woff2'),
+        url('../fonts/URWDIN-Regular.woff') format('woff');
+      font-weight: 400;
+      font-display: swap;
+ }
