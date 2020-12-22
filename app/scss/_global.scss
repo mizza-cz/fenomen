@@ -17,7 +17,7 @@ a{
    display: inline-block;
    text-decoration: none;
    color: inherit;
-   font-family: 'URWDIN-Regular', sans-serif;
+   font-family: 'URWDIN', sans-serif;
    font-weight: 300;
 }
 ul,
@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 body{
-   font-family: 'URWDIN-Regular', sans-serif;
+   font-family: 'URWDIN', sans-serif;
    font-weight: 300;
    font-size: 18px;
    color: #121619;
@@ -47,7 +47,7 @@ body{
    text-transform: uppercase;
    padding: 14px 14px 16px 0;
    font-size: 48px;
-   font-family: 'URWDIN-Black', sans-serif;
+   font-family: 'URWDIN', sans-serif;
    font-weight: 900;
    display: inline-block;
    margin-bottom: 80px;
@@ -105,7 +105,7 @@ body{
 .btn{
    text-transform: uppercase;
    font-size: 16px;
-   font-family: 'URWDIN-Black', sans-serif;
+   font-family: 'URWDIN', sans-serif;
    font-weight: 900;
    padding: 8px 16px 10px;
    line-height: 1.5;
@@ -120,6 +120,7 @@ body{
 }
 
 .available{
+   text-transform: uppercase;
    color: #c1c7cd;
    border: 2px solid #c1c7cd;
    height: 42px;
@@ -147,10 +148,6 @@ body{
 
 
 
-.a {
-    grid-area: a; 
-    min-height: 380px;
-   }
 .b { grid-area: b; }
 .c { grid-area: c; }
 .d { grid-area: d; }
@@ -185,4 +182,10 @@ body{
       object-fit: cover;
    }
 }
+
+.gallery .a {
+   grid-area: a; 
+   min-height: 380px;
+   width: 280px;
+  }
 

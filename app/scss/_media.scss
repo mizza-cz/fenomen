@@ -10,7 +10,8 @@
       width: 100%;
       justify-content: center;
    }
-   .gallery a{
+   .gallery a,
+   .gallery .a{
       min-height: 200px;
       max-width: 250px;
       display: block;
@@ -212,9 +213,11 @@
    }
 }
 @media(max-width: 550px){
-   .gallery a{
+   .gallery a,
+   .gallery .a{
       max-width: 320px;
       margin-right: 0;
+      width: 100%;
    }
 }
 @media(max-width: 500px){

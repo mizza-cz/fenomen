@@ -98,12 +98,11 @@
 }
 .video__name{
    font-weight: 900;
-   font-family: 'URWDIN-Black', sans-serif;
+   font-family: 'URWDIN', sans-serif;
    font-size: 24px;
    line-height: 1.33;
    margin-bottom: 4px;
    text-transform: uppercase;
-   letter-spacing: .3px;
    position: relative;
    &::before{
       content: '';
@@ -141,7 +140,7 @@
    &-list{
       line-height: 1.78;
       span{
-         font-family: 'URWDIN-Bold', sans-serif;
+         font-family: 'URWDIN', sans-serif;
          font-weight: 700;
       }
    }
@@ -152,7 +151,7 @@
 }
 .movie__number,
 .movie__name span{
-   font-family: 'URWDIN-Bold', sans-serif;
+   font-family: 'URWDIN', sans-serif;
    font-weight: 700;
 }
 // about
@@ -161,7 +160,7 @@
    margin: 32px 0 16px 0;
    font-size: 32px;
    font-weight: 900;
-   font-family: 'URWDIN-Black', sans-serif;
+   font-family: 'URWDIN', sans-serif;
 }
 
 // footer
@@ -173,7 +172,7 @@
 }
 .footer__title{
    font-size: 32px;
-   font-family: 'URWDIN-Black', sans-serif;
+   font-family: 'URWDIN', sans-serif;
    font-weight: 900;
    margin-bottom: 40px;
 }
@@ -184,12 +183,16 @@
    &-info{
       font-weight: 700;
       margin-left: 16px;
-      font-family: 'URWDIN-Bold', sans-serif;
+      font-family: 'URWDIN', sans-serif;
       span{
          font-weight: 300;
-         font-family: 'URWDIN-Regular', sans-serif;
+         font-family: 'URWDIN', sans-serif;
       }
    }
+}
+.footer__link{
+   display: flex;
+   align-items: center;
 }
 .footer__link img{
    object-fit: contain;
@@ -313,7 +316,7 @@
       position: absolute;
       left: 0;
       bottom: 0;
-      font-family: 'URWDIN-Black', sans-serif;
+      font-family: 'URWDIN', sans-serif;
       font-weight: 900;
       width: 112px;
       height: 42px;
